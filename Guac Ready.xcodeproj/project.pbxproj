@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2FEE9FE02530DE77007ED7BE /* ReadyAvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadyAvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEE9FE02530DE77007ED7BE /* Guac Ready.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guac Ready.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEE9FE32530DE77007ED7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FEE9FE52530DE77007ED7BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2FEE9FE72530DE77007ED7BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		2FEE9FD72530DE77007ED7BE = {
 			isa = PBXGroup;
 			children = (
-				2FEE9FE22530DE77007ED7BE /* ReadyAvo */,
+				2FEE9FE22530DE77007ED7BE /* Guac Ready */,
 				2FEE9FE12530DE77007ED7BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		2FEE9FE12530DE77007ED7BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FEE9FE02530DE77007ED7BE /* ReadyAvo.app */,
+				2FEE9FE02530DE77007ED7BE /* Guac Ready.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FEE9FE22530DE77007ED7BE /* ReadyAvo */ = {
+		2FEE9FE22530DE77007ED7BE /* Guac Ready */ = {
 			isa = PBXGroup;
 			children = (
 				2FEE9FE32530DE77007ED7BE /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				2FEE9FEE2530DE7B007ED7BE /* LaunchScreen.storyboard */,
 				2FEE9FF12530DE7B007ED7BE /* Info.plist */,
 			);
-			path = ReadyAvo;
+			path = "Guac Ready";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FEE9FDF2530DE77007ED7BE /* ReadyAvo */ = {
+		2FEE9FDF2530DE77007ED7BE /* Guac Ready */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FEE9FF42530DE7B007ED7BE /* Build configuration list for PBXNativeTarget "ReadyAvo" */;
+			buildConfigurationList = 2FEE9FF42530DE7B007ED7BE /* Build configuration list for PBXNativeTarget "Guac Ready" */;
 			buildPhases = (
 				2FEE9FDC2530DE77007ED7BE /* Sources */,
 				2FEE9FDD2530DE77007ED7BE /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ReadyAvo;
+			name = "Guac Ready";
 			productName = ReadyAvo;
-			productReference = 2FEE9FE02530DE77007ED7BE /* ReadyAvo.app */;
+			productReference = 2FEE9FE02530DE77007ED7BE /* Guac Ready.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FEE9FDB2530DE77007ED7BE /* Build configuration list for PBXProject "ReadyAvo" */;
+			buildConfigurationList = 2FEE9FDB2530DE77007ED7BE /* Build configuration list for PBXProject "Guac Ready" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FEE9FDF2530DE77007ED7BE /* ReadyAvo */,
+				2FEE9FDF2530DE77007ED7BE /* Guac Ready */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzellhuber.ReadyAvo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzellhuber.Guac-Ready";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzellhuber.ReadyAvo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzellhuber.Guac-Ready";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FEE9FDB2530DE77007ED7BE /* Build configuration list for PBXProject "ReadyAvo" */ = {
+		2FEE9FDB2530DE77007ED7BE /* Build configuration list for PBXProject "Guac Ready" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FEE9FF22530DE7B007ED7BE /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FEE9FF42530DE7B007ED7BE /* Build configuration list for PBXNativeTarget "ReadyAvo" */ = {
+		2FEE9FF42530DE7B007ED7BE /* Build configuration list for PBXNativeTarget "Guac Ready" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FEE9FF52530DE7B007ED7BE /* Debug */,
